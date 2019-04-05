@@ -63,7 +63,7 @@ The file you have just created must be initiated by Node.js before any action ca
 
 Start your command line interface, write `node myfirst.js` and hit enter:
 
-``` Bash
+``` bash
 C:\Users\Your Name> node myfirst.js
 ```
 
