@@ -25,7 +25,7 @@ The reason this is possible is because JavaScript programs share a global namesp
 
 To set up a global variable, we need to create it on the global object. The global object is what gives us the scope of the **entire** project, rather than just the file (module) the variable was created in. In the code block below, we create a global variable called `globalString` and we give it a value. Next, we change the value of `globalString`, and then finally we set it to undefined.
 
-```Javascript
+```JavaScript
 // Global.js
 
 global.globalString = "This can be accessed anywhere!";  
@@ -38,7 +38,7 @@ globalString = undefined;
 console.log(globalString); // Output: undefined  
 ```
 
-```Javascript
+```JavaScript
 // Example.js
 
 // We can use the global we created in Global.js in this file 
@@ -51,7 +51,7 @@ console.log(globalString); // Output: "We can change it too!"
 
 ## Variables are not added to global object
 
-```Javascript
+```JavaScript
 var message = '';
 consoloe.log(global.message); //undefined
 ```

@@ -20,7 +20,7 @@ If we want to use those functions and variables **private** to one module in ano
 
 Every node application has at least one module which we call the main module. E.g. `app.js` below is our main module:
 
-```Javascript
+```JavaScript
 console.log(module); // module object is not a global object
 ```
 
