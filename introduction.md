@@ -1,5 +1,7 @@
 # 1. Introduction
 
+[Previous topic: Index](README.md)
+
 * Node.js® is a JavaScript runtime built on **Chrome's V8** JavaScript engine.
 * Node.js is **not** a programming language.
 * Node.js is **not** a framework.
@@ -65,7 +67,9 @@ Start your command line interface, write `node myfirst.js` and hit enter:
 C:\Users\Your Name> node myfirst.js
 ```
 
-### References
+[Next topic: Global objects](Global-Objects.md)
+
+## References
 
 1. [Nodejs.org](https://nodejs.org/en/about/)
 2. [tutorialspoint: Node.js-Introduction](https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm)
