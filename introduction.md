@@ -49,7 +49,7 @@ Once you have downloaded and installed Node.js on your computer, let's try to di
 
 Create a Node.js file named "myfirst.js", and add the following code:
 
-``` JavaScript
+``` javascript
 //myfirst.js
 var http = require('http');
 
