@@ -37,6 +37,34 @@ A common task for a web server can be to open a file on the server and return th
 
 It is **not advisable** to use Node.js for **CPU intensive** applications. This is primarily because Node.js is single threaded
 
+## Download Node.js
+
+Download Node.js from the official Node.js web site: [https://nodejs.org](https://nodejs.org).
+
+## Gettting Started
+
+Once you have downloaded and installed Node.js on your computer, let's try to display "Hello World" in a web browser.
+
+Create a Node.js file named "myfirst.js", and add the following code:
+
+```JavaScript
+//myfirst.js
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.end('Hello World!');
+}).listen(8080);
+```
+
+The file you have just created must be initiated by Node.js before any action can take place.
+
+Start your command line interface, write `node myfirst.js` and hit enter:
+
+```bash
+C:\Users\Your Name> node myfirst.js
+```
+
 ### References
 
 1. [Nodejs.org](https://nodejs.org/en/about/)

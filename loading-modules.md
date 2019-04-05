@@ -61,4 +61,4 @@ log('message'); // will return message
 
 ## References
 
-1. [Mosh - Node.js for beginngers](https://www.youtube.com/watch?v=TlB_eWDSMt4)
+1. [Mosh - Node.js for beginners](https://www.youtube.com/watch?v=TlB_eWDSMt4)
