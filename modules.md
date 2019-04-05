@@ -62,6 +62,12 @@ The above output shows a `.json` object with **key: value** pairs or properties:
 
 So now we know, in node, **every file is a module**. Variables and functions defined in that file are scoped in that module. They are not available outside that module.
 
+## What is a module in Node.js
+
+Consider modules to be the same as JavaScript libraries.
+
+A set of functions you want to include in your application.
+
 **[Next topic: Creating a module](creating-modules.md)**
 
 ## References
