@@ -1,1 +1,3 @@
-console.log(module);
+var logger = require('./modules-logger');
+
+console.log(logger);

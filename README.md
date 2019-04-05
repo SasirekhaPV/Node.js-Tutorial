@@ -8,3 +8,4 @@ This is a small introduction to **node.js** for **CSE3002**: Internet and Web Pr
 1. [Introduction](introduction.md)
 2. [Global Objects](Global-Objects.md)
 3. [Modules](modules.md)
+4. [Creating a module](creating-modules.md)
