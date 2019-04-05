@@ -10,3 +10,4 @@ This is a small introduction to **node.js** for **CSE3002**: Internet and Web Pr
 4. [Creating a module](creating-modules.md)
 5. [Loading a module](loading-modules.md)
 6. [HTTP module](http-module.md)
+7. [Events](events.md)
