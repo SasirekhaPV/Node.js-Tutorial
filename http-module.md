@@ -14,7 +14,7 @@ The HTTP module can create an HTTP server that listens to server ports and gives
 
 Let's make a `server.js` file to do this:
 
-```JavaScript
+``` javascript
 //server.js
 
 const http = require('http');
@@ -30,7 +30,7 @@ The function passed into the `http.createServer()` method, will be executed when
 
 Save the code above in a file called "server.js", and initiate the file:
 
-```bash
+``` bash
 C:\Users\Your Name>node server.js
 ```
 

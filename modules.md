@@ -8,7 +8,7 @@
 
 In **Javascript**(not Node.js), when we declare a variable or a function, it is added to the global scope:
 
-```Javascript
+``` javascript
 let sayHello = function(){
 
 }
@@ -26,13 +26,13 @@ If we want to use those functions and variables **private** to one module in ano
 
 Every node application has at least one module which we call the main module. E.g. `app.js` below is our main module:
 
-```JavaScript
+``` javascript
 console.log(module); // module object is not a global object
 ```
 
 Running the above file is likely to produce an output as follows:
 
-```bash
+``` bash
 Info: Start process (10:58:31 AM)
 Module {
   id: '.',

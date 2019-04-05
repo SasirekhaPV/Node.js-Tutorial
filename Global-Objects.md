@@ -6,7 +6,7 @@
 
 When you create a variable in a **JavaScript file**, that variables only exists in the scope that it was declared in. Now what do I mean by this? In the code below, you can see an example of two different variables with different scopes.
 
-```Javascript
+``` javascript
 // Scope.js
 
 let fileScope = "Can be accessed anywhere in the file";
@@ -29,7 +29,7 @@ The reason this is possible is because JavaScript programs share a global namesp
 
 To set up a global variable, we need to create it on the global object. The global object is what gives us the scope of the **entire** project, rather than just the file (module) the variable was created in. In the code block below, we create a global variable called `globalString` and we give it a value. Next, we change the value of `globalString`, and then finally we set it to undefined.
 
-```JavaScript
+``` javascript
 // Global.js
 
 global.globalString = "This can be accessed anywhere!";  
@@ -42,7 +42,7 @@ globalString = undefined;
 console.log(globalString); // Output: undefined  
 ```
 
-```JavaScript
+``` javascript
 // Example.js
 
 // We can use the global we created in Global.js in this file 
@@ -55,7 +55,7 @@ console.log(globalString); // Output: "We can change it too!"
 
 ## Variables are not added to global object
 
-```JavaScript
+``` javascript
 var message = '';
 consoloe.log(global.message); //undefined
 ```

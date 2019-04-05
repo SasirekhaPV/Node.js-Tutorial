@@ -6,7 +6,7 @@
 
 Let us assume that we're creating a module for login messages. Now let's imagine we're going to use a remote logger services. These services give us a **URL** and we can send a **HTTP Request** to that URL to log messages in the cloud.
 
-```JavaScript
+``` javascript
 //logger.js
 let url = 'http://mylogger.io/log'; // some fictious logger service
 
@@ -43,7 +43,7 @@ Anything that we add to this modules object will be exported from this module an
 
 Now in our `logger.js` file, we're going to make the following changes:
 
-```JavaScript
+``` javascript
 //logger.js
 let url = 'http://mylogger.io/log'; // some fictious logger service
 
