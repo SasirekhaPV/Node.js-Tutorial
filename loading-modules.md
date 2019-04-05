@@ -4,7 +4,6 @@
 
 **[Previous topic: Creating a module](creating-modules.md)**
 
-
 To load a module, we use the `require` function in our `app.js` file:
 
 ```JavaScript
@@ -64,8 +63,9 @@ const log = require('./logger'); // since the export is now only a function
 log('message'); // will return message
 ```
 
-**[Next topic: ]()**
+**[Next topic: HTTP Module](http-module.md)**
 
 ## References
 
 1. [Mosh - Node.js for beginners](https://www.youtube.com/watch?v=TlB_eWDSMt4)
+2. [w3schools - Node.js Modules](https://www.w3schools.com/nodejs/nodejs_modules.asp)

@@ -68,8 +68,11 @@ Consider modules to be the same as JavaScript libraries.
 
 A set of functions you want to include in your application.
 
+
+
 **[Next topic: Creating a module](creating-modules.md)**
 
 ## References
 
 1. [Mosh - Node.js for beginners](https://www.youtube.com/watch?v=TlB_eWDSMt4)
+2. [w3schools - Node.js Modules](https://www.w3schools.com/nodejs/nodejs_modules.asp)
