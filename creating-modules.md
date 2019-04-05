@@ -8,7 +8,7 @@ Let us assume that we're creating a module for login messages. Now let's imagine
 
 ```JavaScript
 //logger.js
-var url = 'http://mylogger.io/log'; // some fictious logger service
+let url = 'http://mylogger.io/log'; // some fictious logger service
 
 // we're going to send a HTTP request to this log
 function log(message){
@@ -45,7 +45,7 @@ Now in our `logger.js` file, we're going to make the following changes:
 
 ```JavaScript
 //logger.js
-var url = 'http://mylogger.io/log'; // some fictious logger service
+let url = 'http://mylogger.io/log'; // some fictious logger service
 
 // we're going to send a HTTP request to this log
 function log(message){

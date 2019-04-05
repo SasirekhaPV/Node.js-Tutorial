@@ -49,10 +49,10 @@ To fire an event, use the `emit()` method.
 
 ```Javascript
 const events = require('events');
-var eventEmitter = new events.EventEmitter();
+let eventEmitter = new events.EventEmitter();
 
 //Create an event handler:
-var myEventHandler = function () {
+let myEventHandler = function () {
   console.log('I hear a scream!');
 }
 

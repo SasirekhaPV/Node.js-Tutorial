@@ -9,7 +9,7 @@
 In **Javascript**(not Node.js), when we declare a variable or a function, it is added to the global scope:
 
 ```Javascript
-var sayHello = function(){
+let sayHello = function(){
 
 }
 
@@ -67,8 +67,6 @@ So now we know, in node, **every file is a module**. Variables and functions def
 Consider modules to be the same as JavaScript libraries.
 
 A set of functions you want to include in your application.
-
-
 
 **[Next topic: Creating a module](creating-modules.md)**
 

@@ -7,7 +7,7 @@
 To load a module, we use the `require` function in our `app.js` file:
 
 ```JavaScript
-var logger = require('./logger'); // assuming the logger.js file we created is in the same foler
+let logger = require('./logger'); // assuming the logger.js file we created is in the same foler
 // .js extension is added by node
 
 console.log(logger);
@@ -24,7 +24,7 @@ Info: End process (11:35:01 AM)
 This object has a single object called `log` which contains the log function. We can call this function log in app.js:
 
 ```JavaScript
-var logger = require('./logger'); // assuming the logger.js file we created is in the same foler
+let logger = require('./logger'); // assuming the logger.js file we created is in the same foler
 // .js extension is added by node
 
 logger.log('message'); // will return message
@@ -44,7 +44,7 @@ logger.log('message'); // will return message
 We can load just the function by changing the code in `logger.js` to:
 ```JavaScript
 //logger.js
-var url = 'http://mylogger.io/log'; // some fictious logger service
+let url = 'http://mylogger.io/log'; // some fictious logger service
 
 function log(message){
     // Send a HTTP request
