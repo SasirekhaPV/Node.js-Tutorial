@@ -57,3 +57,7 @@ The above output shows a `.json` object with **key: value** pairs or properties:
 7. `paths`
 
 So now we know, in node, **every file is a module**. Variables and functions defined in that file are scoped in that module. They are not available outside that module.
+
+## References
+
+1. [Mosh - Node.js for beginngers](https://www.youtube.com/watch?v=TlB_eWDSMt4)
