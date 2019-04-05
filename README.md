@@ -1,6 +1,6 @@
 # Welcome
 
-This is a small introduction to `node.js` for CSE3002: Internet and Web Programming being offered at Vellore Institute of Technology, Vellore.
+This is a small introduction to **node.js** for **CSE3002**: Internet and Web Programming being offered at Vellore Institute of Technology, Vellore.
 
 
 ## Index
