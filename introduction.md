@@ -49,7 +49,7 @@ Once you have downloaded and installed Node.js on your computer, let's try to di
 
 Create a Node.js file named "myfirst.js", and add the following code:
 
-```JavaScript
+``` JavaScript
 //myfirst.js
 var http = require('http');
 
@@ -63,7 +63,7 @@ The file you have just created must be initiated by Node.js before any action ca
 
 Start your command line interface, write `node myfirst.js` and hit enter:
 
-```bash
+``` Bash
 C:\Users\Your Name> node myfirst.js
 ```
 
