@@ -1,6 +1,6 @@
 # 1. Introduction
 
-[Previous topic: Index](README.md)
+**[Back to Index](README.md)**
 
 * Node.js® is a JavaScript runtime built on **Chrome's V8** JavaScript engine.
 * Node.js is **not** a programming language.
@@ -67,7 +67,7 @@ Start your command line interface, write `node myfirst.js` and hit enter:
 C:\Users\Your Name> node myfirst.js
 ```
 
-[Next topic: Global objects](Global-Objects.md)
+**[Next topic: Global objects](Global-Objects.md)**
 
 ## References
 

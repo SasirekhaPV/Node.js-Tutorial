@@ -1,5 +1,9 @@
 # 2. Global objects - part of globol scope
 
+**[Back to Index](README.md)**
+
+**[Previous topic: Introduction](introduction.md)**
+
 When you create a variable in a **JavaScript file**, that variables only exists in the scope that it was declared in. Now what do I mean by this? In the code below, you can see an example of two different variables with different scopes.
 
 ```Javascript
@@ -79,6 +83,8 @@ The following objects are **prefixed** with `global` as that is where all the fo
 * `clearTimeout();` - Used to clear function delay set using `setTimeout();`
 * `setInterval();` - Used to repeatively call a function after a given delay
 * `clearInterval();` - Stops function from being called repeatively using `setInterval();`
+
+**[Next topic: Modules](modules.md)**
 
 ## References
 

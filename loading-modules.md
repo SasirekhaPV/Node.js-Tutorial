@@ -1,5 +1,10 @@
 # 5. Loading a module
 
+**[Back to Index](README.md)**
+
+**[Previous topic: Creating a module](creating-modules.md)**
+
+
 To load a module, we use the `require` function in our `app.js` file:
 
 ```JavaScript
@@ -58,6 +63,8 @@ const log = require('./logger'); // since the export is now only a function
 
 log('message'); // will return message
 ```
+
+**[Next topic: ]()**
 
 ## References
 

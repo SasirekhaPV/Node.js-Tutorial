@@ -1,5 +1,9 @@
 # 4 Creating a module
 
+**[Back to Index](README.md)**
+
+**[Previous topic: Modules](modules.md)**
+
 Let us assume that we're creating a module for login messages. Now let's imagine we're going to use a remote logger services. These services give us a **URL** and we can send a **HTTP Request** to that URL to log messages in the cloud.
 
 ```JavaScript
@@ -52,6 +56,8 @@ function log(message){
 module.exports.logFun = log; // adding the function log to the module object in app.js with a name logFun
 // module.exports.endPoint = url; // doing the same for url
 ```
+
+**[Next topic: Loading a module](loading-modules.md)**
 
 ## References
 

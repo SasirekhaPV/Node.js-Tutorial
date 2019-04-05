@@ -1,5 +1,9 @@
 # 3. Modules
 
+**[Back to Index](README.md)**
+
+**[Previous topic: Global Objects](Global-Objects.md)**
+
 ## Some issues with `var` and global scope
 
 In **Javascript**(not Node.js), when we declare a variable or a function, it is added to the global scope:
@@ -58,6 +62,8 @@ The above output shows a `.json` object with **key: value** pairs or properties:
 
 So now we know, in node, **every file is a module**. Variables and functions defined in that file are scoped in that module. They are not available outside that module.
 
+**[Next topic: Creating a module](creating-modules.md)**
+
 ## References
 
-1. [Mosh - Node.js for beginngers](https://www.youtube.com/watch?v=TlB_eWDSMt4)
+1. [Mosh - Node.js for beginners](https://www.youtube.com/watch?v=TlB_eWDSMt4)
