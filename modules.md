@@ -14,6 +14,8 @@ window.sayHello(); // function available as window object
 
 Issue is that when we create an application, we often split our Javascript code into multiple files. It is hence possible that we have two files and both these files contain functions with the **exact** name. So when we define `sayHello` function in a new file, that new definition is going to overwrite the previous definition.
 
+## Modularity in node
+
 This is why we need **modularity**. Functions and variables defined in one module don't override others. They are encapsulated in that module. 
 
 If we want to use those functions and variables **private** to one module in another module. We need to explicity `export` them into another module. This will make the functions and variables **public**. We will look at this later.
