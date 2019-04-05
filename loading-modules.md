@@ -1,4 +1,4 @@
-# 5 Loading a module
+# 5. Loading a module
 
 To load a module, we use the `require` function in our `app.js` file:
 
@@ -33,6 +33,30 @@ const logger = require('./logger'); // assuming the logger.js file we created is
 // .js extension is added by node
 
 logger.log('message'); // will return message
+```
+
+## Exporting just the function
+
+We can load just the function by changing the code in `logger.js` to:
+```JavaScript
+//logger.js
+var url = 'http://mylogger.io/log'; // some fictious logger service
+
+function log(message){
+    // Send a HTTP request
+    console.log(message);
+}
+
+module.exports = log; // only log function is exported
+```
+
+and run this in `app.js` as follows:
+
+```JavaScript
+//app.js
+const log = require('./logger'); // since the export is now only a function
+
+log('message'); // will return message
 ```
 
 ## References
