@@ -89,4 +89,4 @@ The following objects are **prefixed** with `global` as that is where all the fo
 ## References
 
 1. [Using Global Variables in Node.js](https://stackabuse.com/using-global-variables-in-node-js/)
-2. [Mosh - Node.js for beginngers](https://www.youtube.com/watch?v=TlB_eWDSMt4)
+2. [Mosh - Node.js for beginners](https://www.youtube.com/watch?v=TlB_eWDSMt4)
