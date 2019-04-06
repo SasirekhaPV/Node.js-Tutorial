@@ -18,7 +18,7 @@ Node.js has a built-in module, called "Events", where you can `create-`, `fire-`
 
 To include the built-in Events module use the `require() `method. In addition, all event properties and methods are an instance of an EventEmitter object. To be able to access these properties and methods, create an `EventEmitter` object:
 
-```JavaScript
+``` javaScript
 const events = require('events');
 const eventEmitter = new events.EventEmitter();
 ```
@@ -47,7 +47,7 @@ In the example below we have created a function that will be executed when a "sc
 
 To fire an event, use the `emit()` method.
 
-```Javascript
+``` javascript
 const events = require('events');
 let eventEmitter = new events.EventEmitter();
 
