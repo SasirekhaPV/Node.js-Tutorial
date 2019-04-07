@@ -41,7 +41,7 @@ You can assign event handlers to your own events with the EventEmitter object.
   };
   ```
   
-  Note that we should always add an emitter only after calling a listener. This is because the emitter iterates over all the listeners and calls them asynchronously. 
+  Note that we should always add an emitter only after calling a listener. This is because the emitter iterates over all the listeners and calls them asynchronously.
 
 In the example below we have created a function that will be executed when a "scream" event is fired.
 
@@ -74,7 +74,57 @@ Let's break it down shall we?
 According to the **official** (and yes, that's official in **bold** text) Node.js documentation,
 > Much of the Node.js core API is built around an idiomatic asynchronous event-driven architecture in which certain kinds of objects (called "emitters") emit named events that cause Function objects ("listeners") to be called.
 
-The whole point of Node.js is that you can express things as events. 
+The whole point of Node.js is that you can express everything as events.
+
+"To emit" is "to make (a sound)". So an alarm would be a perfect example of an **Event emitter**.
+
+``` javascript
+const events = require('events');
+let alarm = new events.EventEmitter(); // this is an eventHandler
+```
+
+Now, you need the alarm to have some functionality, don't you? So lets create a method/function called `ring`. This is your **Event Handler**. 
+
+What about the event itself? Well, the best part is saved for the last. The event is pushing the alarm button. On the push of the button, the alarm should `ring` on a `ButtonPush`.
+
+``` javascript
+//Create an event handler:
+let ring = function () {
+  console.log('Rrrrriiing!!!');
+}
+
+//Assign the event handler to an event:
+alarm.on('ButtonPush', ring);
+```
+
+Notice how the syntax is beginnging to make sense now - the `alarm` (EventEmitter) will `ring` (EventHandler) `on` (keyword used to assign an event handler to an event) a `ButtonPush` (the event).
+
+Now it's time to `emit()` the sound or *fire* the event. This being the equivalent of pushing the button.
+
+``` javascript
+//Fire the 'ButtonPush' event:
+alarm.emit('ButtonPush');
+```
+
+The final code would look as follows:
+
+``` javascript
+const events = require('events');
+let alarm = new events.EventEmitter(); // this is an eventHandler
+
+//Create an event handler:
+let ring = function () {
+  console.log('Rrrrriiing!!!');
+}
+
+//Assign the event handler to an event:
+alarm.on('ButtonPush', ring);
+
+//Fire the 'ButtonPush' event:
+alarm.emit('ButtonPush');
+```
+
+And this is the simplest way (IMO) to explain events in node.js.
 
 ## CONGRATULATIONS
 

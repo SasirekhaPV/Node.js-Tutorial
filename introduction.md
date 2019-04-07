@@ -72,7 +72,7 @@ Similarly,
 ## Why Node.js
 
 * Node.js **eliminates** **the** **waiting**, and simply continues with the next request.
-* Node.js runs **single-threaded**, **non-blocking**, asynchronously programming, which is **very** memory **efficient**.
+* Node.js runs **single-threaded**, **non-blocking**, **asynchronously**, which is **very memory efficient**.
 
 ## What can Node.js do
 
