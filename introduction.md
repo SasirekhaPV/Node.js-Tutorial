@@ -31,10 +31,10 @@ A common task for a web server can be to open a file on the server and return th
 
 Notice how everything is handled is a sequential manner?
 
-Think of file handling in a PHP as waiting in a badly organizer restraurant. Imagine two tables in a restaurant, something like this:
+Think of file handling in a PHP as waiting in a badly organizer restraurant. Imagine two tables in a restaurant. Something as follows:
 
 
-<p align='center'><img src="https://raw.githubusercontent.com/jacobjohn2016/Node.js-Tutorial/master/images/table.png" alt="table restaurant" width="500" height="600"></p>
+<p align='center'><img src="https://raw.githubusercontent.com/jacobjohn2016/Node.js-Tutorial/master/images/table.png" alt="table restaurant" width="430" height="300"></p>
 
 
 *Taken from [this](https://www.youtube.com/watch?v=TlB_eWDSMt4&t=3577s) video.*
@@ -52,7 +52,7 @@ If the waiter only waits only on one table at a time. The following would happen
 
 Imagine how **FRUSTRATING** this would be!1!!
 
-Node.js doesn't do that, instead it would do something like this...
+Node.js doesn't do that, instead it would this...
 
 * Customer sits in table 1.
 * Waiter notices and takes table 1's order.
