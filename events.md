@@ -65,7 +65,7 @@ eventEmitter.emit('scream');
 
 ## But what <u>really</u> is an event
 
-Personally, I didn't understand of that jargon when I first encountered events.
+Personally, I didn't understand any of that jargon either when I first encountered events.
 
 Let's break it down shall we?
 
