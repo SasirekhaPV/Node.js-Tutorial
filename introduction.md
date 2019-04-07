@@ -33,7 +33,9 @@ Notice how everything is handled is a sequential manner?
 
 Think of file handling in a PHP as waiting in a badly organizer restraurant. Imagine two tables in a restaurant, something like this:
 
-restaurant-table.png
+
+<p align='center'><img src="https://raw.githubusercontent.com/jacobjohn2016/Node.js-Tutorial/master/images/table.png" alt="table restaurant" width="500" height="600"></p>
+
 
 *Taken from [this](https://www.youtube.com/watch?v=TlB_eWDSMt4&t=3577s) video.*
 
