@@ -2,9 +2,18 @@
 
 **[Back to Index](README.md)**
 
+## The official definition
+
+> Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+
 * Node.js® is a JavaScript runtime built on **Chrome's V8** JavaScript engine.
+  Ryan Dahl (*clears throat* Mr Ryan Dahl), founder of Node.js, observed that chrome's V8 JavaScript engine is that fastest. So he embedded it in a C++ program with some additional implementation and called it `Node.exe`...
+  *Eureka!* ... and thus node.js was born.
 * Node.js is **not** a programming language.
 * Node.js is **not** a framework.
+  If anyone tells you otherwise, shoot...where are my manners, sorry. *Fails to immitate a posh accent*, it's not a programming language nor a framework, it's a **RUNTIME ENVIRONMENT** for executing JavaScript code.
+
+  JavaScript needs a JavaScript engine inside a browser to run. Ryan Dahl thought it would be a great idea to write code in JavaScript and be able to run this outside of the browser. Hence, the V8 enginer as mentioned earlier.
 
 ## Uses asynchronous programming
 
@@ -16,6 +25,38 @@ A common task for a web server can be to open a file on the server and return th
 * Waits while the file system opens and reads the file.
 * Returns the content to the client.
 * Ready to handle the next request.
+
+Notice how everything is handled is a sequential manner?
+
+Think of file handling in a PHP as waiting in a badly organizer restraurant. Imagine two tables in a restaurant, something like this:
+
+restaurant-table.png
+
+*Taken from [this](https://www.youtube.com/watch?v=TlB_eWDSMt4&t=3577s) video.*
+
+If the waiter only waits only on one table at a time. The following would happen:
+
+* Customer sits in table 1.
+* Waiter notices and takes table 1's order.
+* Waiter gives order to chef.
+* New customer sits in table 2.
+* Waiter notices, doesn't attend table 2 because table 1 is still not served.
+* Chef indicates food is ready.
+* Waiter serves the food to table 1.
+* Waiter then takes table 2's order.
+
+Imagine how **FRUSTRATING** this would be!1!!
+
+Node.js doesn't do that, instead it would do something like this...
+
+* Customer sits in table 1.
+* Waiter notices and takes table 1's order.
+* Waiter gives order to chef.
+* New customer sits in table 2.
+* Waiter takes table 2's order.
+* and henceforth...
+
+Similarly,
 
 *Here is how Node.js handles a file request:*
 
@@ -35,9 +76,17 @@ A common task for a web server can be to open a file on the server and return th
 * collect form data
 * add, delete, modify data in your database
 
+## Features (consolidated)
+
+* **Asynchronous and Event Driven** − All APIs of Node.js library are asynchronous, that is, non-blocking. It essentially means a Node.js based server never waits for an API to return data. The server moves to the next API after calling it and a notification mechanism of Events of Node.js helps the server to get a response from the previous API call.
+* **Very Fast** − Being built on Google Chrome's V8 JavaScript Engine, Node.js library is very fast in code execution.
+* **Single Threaded but Highly Scalable** − Node.js uses a single threaded model with event looping. Event mechanism helps the server to respond in a non-blocking way and makes the server highly scalable as opposed to traditional servers which create limited threads to handle requests. Node.js uses a single threaded program and the same program can provide service to a much larger number of requests than traditional servers like Apache HTTP Server.
+* **No Buffering** − Node.js applications never buffer any data. These applications simply output the data in chunks.
+* **License** − Node.js is released under the MIT license.
+
 ## Where Not to Use Node.js
 
-It is **not advisable** to use Node.js for **CPU intensive** applications. This is primarily because Node.js is single threaded
+It is **not advisable** to use Node.js for **CPU intensive** applications. This is primarily because Node.js is single threaded.
 
 ## Download Node.js
 

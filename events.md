@@ -74,7 +74,7 @@ Let's break it down shall we?
 According to the **official** (and yes, that's official in **bold** text) Node.js documentation,
 > Much of the Node.js core API is built around an idiomatic asynchronous event-driven architecture in which certain kinds of objects (called "emitters") emit named events that cause Function objects ("listeners") to be called.
 
-
+The whole point of Node.js is that you can express things as events. 
 
 ## CONGRATULATIONS
 
