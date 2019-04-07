@@ -76,6 +76,8 @@ According to the **official** (and yes, that's official in **bold** text) Node.j
 
 The whole point of Node.js is that you can express everything as events.
 
+### Wow...well that's an alarming defintion
+
 "To emit" is "to make (a sound)". So an alarm would be a perfect example of an **Event emitter**.
 
 ``` javascript
@@ -83,9 +85,13 @@ const events = require('events');
 let alarm = new events.EventEmitter(); // this is an eventHandler
 ```
 
+<p align='center'><img src='https://raw.githubusercontent.com/jacobjohn2016/Node.js-Tutorial/master/images/emit-alarm.png' alt='Alarm events'></p>
+
 Now, you need the alarm to have some functionality, don't you? So lets create a method/function called `ring`. This is your **Event Handler**. 
 
 What about the event itself? Well, the best part is saved for the last. The event is pushing the alarm button. On the push of the button, the alarm should `ring` on a `ButtonPush`.
+
+<p align='center'><img src='https://raw.githubusercontent.com/jacobjohn2016/Node.js-Tutorial/master/images/emit-ring.png' alt='Alarm ring'></p>
 
 ``` javascript
 //Create an event handler:
@@ -106,7 +112,9 @@ Now it's time to `emit()` the sound or *fire* the event. This being the equivale
 alarm.emit('ButtonPush');
 ```
 
-The final code would look as follows:
+### Finally
+
+The code would look as follows:
 
 ``` javascript
 const events = require('events');
