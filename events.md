@@ -85,13 +85,13 @@ const events = require('events');
 let alarm = new events.EventEmitter(); // this is an eventHandler
 ```
 
-<p align='center'><img src='https://raw.githubusercontent.com/jacobjohn2016/Node.js-Tutorial/master/images/emit-alarm.png' alt='Alarm events'></p>
+<p align='center'><img src='https://raw.githubusercontent.com/jacobjohn2016/Node.js-Tutorial/master/images/emit-alarm.png' alt='Alarm events' height='300'></p>
 
 Now, you need the alarm to have some functionality, don't you? So lets create a method/function called `ring`. This is your **Event Handler**. 
 
 What about the event itself? Well, the best part is saved for the last. The event is pushing the alarm button. On the push of the button, the alarm should `ring` on a `ButtonPush`.
 
-<p align='center'><img src='https://raw.githubusercontent.com/jacobjohn2016/Node.js-Tutorial/master/images/emit-ring.png' alt='Alarm ring'></p>
+<p align='center'><img src='https://raw.githubusercontent.com/jacobjohn2016/Node.js-Tutorial/master/images/emit-ring.png' alt='Alarm ring' height='300'></p>
 
 ``` javascript
 //Create an event handler:
