@@ -7,11 +7,13 @@
 > Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
 
 * Node.js® is a JavaScript runtime built on **Chrome's V8** JavaScript engine.
+  
   Ryan Dahl (*clears throat* Mr Ryan Dahl), founder of Node.js, observed that chrome's V8 JavaScript engine is that fastest. So he embedded it in a C++ program with some additional implementation and called it `Node.exe`...
 
   *Eureka!* ... and thus node.js was born.
 * Node.js is **not** a programming language.
 * Node.js is **not** a framework.
+  
   If anyone tells you otherwise, shoot...where are my manners, sorry...
   
   ...*Fails to immitate a posh accent*, it's not a programming language nor a framework, it's a **RUNTIME ENVIRONMENT** for executing JavaScript code.
