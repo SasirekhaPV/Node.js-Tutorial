@@ -69,7 +69,7 @@ Personally, I didn't understand of that jargon when I first encountered events.
 
 Let's break it down shall we?
 
-## What is an event
+### What is an event
 
 According to the **official** (and yes, that's official in **bold** text) Node.js documentation,
 > Much of the Node.js core API is built around an idiomatic asynchronous event-driven architecture in which certain kinds of objects (called "emitters") emit named events that cause Function objects ("listeners") to be called.
