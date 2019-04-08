@@ -23,9 +23,9 @@ const events = require('events');
 const eventEmitter = new events.EventEmitter();
 ```
 
-## Eventemitter object
+## EventEmitter class
 
-You can assign event handlers to your own events with the EventEmitter object.
+You can assign event handlers to your own events with the EventEmitter object. Many objects in a Node emit events, for example, a net.Server emits an event each time a peer connects to it. All objects which emit events are the instances of events.EventEmitter.
 
 *But what does each event handler means?*
 
@@ -82,7 +82,7 @@ The whole point of Node.js is that you can express everything as events.
 
 ``` javascript
 const events = require('events');
-let alarm = new events.EventEmitter(); // this is an eventHandler
+let alarm = new events.EventEmitter(); // this is an EventEmitter
 ```
 
 <p align='center'><img src='https://raw.githubusercontent.com/jacobjohn2016/Node.js-Tutorial/master/images/emit-alarm.png' alt='Alarm events' height='300'></p>
@@ -143,3 +143,4 @@ You've succesfully completed this basic tutorial.
 
 1. [Mosh - Node.js for beginners](https://www.youtube.com/watch?v=TlB_eWDSMt4)
 2. [w3schools - Node.js Events](https://www.w3schools.com/nodejs/nodejs_events.asp)
+3. [Tutorialspoint - EventEmitter](https://www.tutorialspoint.com/nodejs/nodejs_event_emitter.htm)
