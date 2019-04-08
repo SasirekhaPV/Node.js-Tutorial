@@ -118,7 +118,7 @@ The code would look as follows:
 
 ``` javascript
 const events = require('events');
-let alarm = new events.EventEmitter(); // this is an eventHandler
+let alarm = new events.EventEmitter(); // this is an EventEmitter
 
 //Create an event handler:
 let ring = function () {
